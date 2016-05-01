@@ -14,7 +14,7 @@ class MainScene: CCNode, CCPhysicsCollisionDelegate{
     var grounds = [CCSprite]()
     
     var sinceTouch : CCTime = 0
-    var scrollSpeed : CGFloat = 80
+    var scrollSpeed : CGFloat = 150
     
     var obstacles : [CCNode] = []
     let firstObstaclePosition : CGFloat = 280
